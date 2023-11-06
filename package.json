@@ -8,7 +8,7 @@
     "start": "node ./dist/src/server.js",
     "build": "tsc",
     "postbuild": "cp credencial-firebase.json dist && cp package.json dist/package.json && cd dist && npm install --only=production",
-    "dev": "nodemon src/server"
+    "dev": "nodemon src/server.ts"
   },
   "keywords": [],
   "author": "",

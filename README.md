@@ -7,9 +7,9 @@ O Front-end foi desenvolvido com a biblioteca [React.js](https://pt-br.legacy.re
 ## Configuração do back-end
 
 É necessário instalar o nodemon e o ts-node para que os comandos do nodemon funcionem corretamente
-`npm install -g ts-node nodemon` <br /><br />
+`npm install -g ts-node nodemon` <br />
 
-É necessário configurar as variáveis de ambiente utilizadas no projeto. Para isso, copie o arquivo `.env.example` e cole na pasta raíz do projeto apenas com o nome `.env`. Em `PORTA` você define a porta que deseja utilizar ao executar o servidor. A padrão utilizada é a 8000. Em `URL_FRONT_END` coloque a URL onde está hospedado o front-end do projeto, para que não dê erro de CORS. Os dados para acessar a API do Zoom `ZOOM_ACCOUNT_ID`, `ZOOM_CLIENT_ID` e `ZOOM_CLIENT_SECRET` podem ser conseguidos entrando na conta pelo site https://marketplace.zoom.us/user/build , indo em Manage e clicando no app do tipo `Server-to-Server OAuth`. O servidor SMTP padrão utilizado para enviar e-mail é o do gmail. Em `EMAIL_USER` e `EMAIL_PASSWORD` insira a conta de onde será enviado os e-mails. <br /><br />
+É necessário configurar as variáveis de ambiente utilizadas no projeto. Para isso, copie o arquivo `.env.example` e cole na pasta raíz do projeto apenas com o nome `.env`. Em `PORTA` você define a porta que deseja utilizar ao executar o servidor. A padrão utilizada é a 8000. Em `URL_FRONT_END` coloque a URL onde está hospedado o front-end do projeto, para que não dê erro de CORS. Os dados para acessar a API do Zoom `ZOOM_ACCOUNT_ID`, `ZOOM_CLIENT_ID` e `ZOOM_CLIENT_SECRET` podem ser conseguidos entrando na conta pelo site https://marketplace.zoom.us/user/build , indo em Manage e clicando no app do tipo `Server-to-Server OAuth`. O servidor SMTP padrão utilizado para enviar e-mail é o do gmail. Em `EMAIL_USER` e `EMAIL_PASSWORD` insira a conta de onde será enviado os e-mails. <br />
 
 Para que possa ser utilizada a plataforma Firebase, é necessário fazer download da chave privada, fazendo login em https://console.firebase.google.com/ , abrindo o o projeto, indo em configurações do projeto e na aba contas de serviço clicando no botão gerar nova chave privada. Salve a chave com o nome "credencial-firebase.json" na pasta raíz do projeto.
 
